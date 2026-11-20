@@ -1,13 +1,36 @@
 /* Desktop and laptop css */
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
 
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  flex-wrap: wrap;
+}
 
+header {
+  width: 100dvw;
+  height: 10dvh;
+}
 
+nav {
+  width: 20%;
+  height: 80dvh;
+}
 
+main {
+  width: 80%;
+  height: 80dvh;
+}
 
-
+footer {
+  width: 100dvw;
+  height: 10dvh;
+}
 
 /* Mobile css via mediaquery */
-@media screen and (max-width: 600px) 
-{
-    
+@media screen and (max-width: 600px) {
 }
